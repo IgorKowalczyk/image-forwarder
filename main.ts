@@ -83,6 +83,7 @@ async function serveHttp(conn: Deno.Conn) {
     new Response(buffer, {
      headers: {
       "Content-Type": image?.mime ?? "application/octet-stream",
+      "Cache-Control": "public, max-age=31536000",
      },
     }),
    );
