@@ -1,8 +1,7 @@
 {
   "version": "2",
   "remote": {
-    "https://deno.land/x/is_url@v1.0.1/isURL.ts": "26c7c013d843bf6c3b22dace7d9afc7c1604cfca611dded60b566c670bcc3019",
-    "https://deno.land/x/lru@1.0.2/mod.ts": "1d44b87c4d40ff33749ae5fd85fe234344e0dace835fdfeb48413edea9461159"
+    "https://deno.land/x/is_url@v1.0.1/isURL.ts": "26c7c013d843bf6c3b22dace7d9afc7c1604cfca611dded60b566c670bcc3019"
   },
   "npm": {
     "specifiers": {
