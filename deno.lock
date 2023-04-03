@@ -165,12 +165,17 @@
   },
   "npm": {
     "specifiers": {
+      "@types/node": "@types/node@18.11.18",
       "image-type": "image-type@5.2.0",
       "lru-cache": "lru-cache@8.0.4"
     },
     "packages": {
       "@tokenizer/token@0.3.0": {
         "integrity": "sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==",
+        "dependencies": {}
+      },
+      "@types/node@18.11.18": {
+        "integrity": "sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==",
         "dependencies": {}
       },
       "file-type@18.2.1": {
