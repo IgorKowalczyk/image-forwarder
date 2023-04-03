@@ -1,5 +1,5 @@
 import { isURL } from "https://deno.land/x/is_url@v1.0.1/isURL.ts";
-import imageType from "npm:image-type";
+import imageType from "https://esm.sh/image-type@5.2.0";
 import LRU from "npm:lru-cache";
 
 const server = Deno.listen({ port: 8080 });
