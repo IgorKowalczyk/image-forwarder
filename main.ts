@@ -1,10 +1,10 @@
 import { isURL } from "https://deno.land/x/is_url@v1.0.1/isURL.ts";
 import imageType from "https://esm.sh/image-type@5.2.0";
-import LRU from "https://esm.sh/lru-cache@8.0.4";
+import { LRUCache } from "https://esm.sh/lru-cache@10.0.0";
 
 const server = Deno.listen({ port: 8080 });
 
-const cache = new LRU({
+const cache = new LRUCache({
  max: 500,
  ttl: 60000,
 });
@@ -14,7 +14,7 @@ type Image = {
  data: Uint8Array;
 };
 
-console.log(`HTTP webserver running.  Access it at:  http://localhost:8080/`);
+console.log(`HTTP webserver running. Access it at: http://localhost:8080/`);
 
 for await (const conn of server) {
  serveHttp(conn).catch(console.error) as Promise<void>;
@@ -71,12 +71,12 @@ async function serveHttp(conn: Deno.Conn) {
    });
 
    if (!response || !response.ok || !response.body) return requestEvent.respondWith(new Response("Image not found on orgin server", { status: 400 }));
-   const buffer = await response.arrayBuffer() as ArrayBuffer;
+   const buffer = (await response.arrayBuffer()) as ArrayBuffer;
    if (!buffer) return requestEvent.respondWith(new Response("Provided url is not a image!", { status: 400 }));
    if (buffer.byteLength > 10000000) return requestEvent.respondWith(new Response("Image too large! Max image size is 10mb", { status: 400 }));
 
    const UArray = new Uint8Array(buffer) as Uint8Array;
-   const image = await imageType(UArray) as { mime: string };
+   const image = (await imageType(UArray)) as { mime: string };
    if (!image) return requestEvent.respondWith(new Response("Provided url is not a image!", { status: 400 }));
 
    requestEvent.respondWith(

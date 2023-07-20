@@ -1,4 +1,4 @@
-name: Types Check
+name: Lint
 
 on: [push, pull_request]
 
@@ -13,5 +13,5 @@ jobs:
      uses: denoland/setup-deno@v1
      with:
       deno-version: v1.x
-   - name: 🚀 Check types
-     run: deno check main.ts
+   - name: 🚀 Check linting
+     run: deno task lint
