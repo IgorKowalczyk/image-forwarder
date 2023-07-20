@@ -10,9 +10,6 @@
  <a aria-label="Version" href="https://github.com/igorkowalczyk/image-forwarder/releases">
   <img src="https://img.shields.io/github/v/release/igorkowalczyk/image-forwarder?color=blue&logo=github&label=Version">
  </a>
- <a aria-label="Vulnerabilities" href="https://github.com/igorkowalczyk/image-forwarder">
-  <img src="https://img.shields.io/snyk/vulnerabilities/github/igorkowalczyk/image-forwarder?color=blue&logo=github&label=Vulnerabilities">
- </a>
 <br/>
  <br/>
   <b>🦕 Deno API that takes the image from a link and transmits the data so that the end user cannot be logged by the origin server</b>
