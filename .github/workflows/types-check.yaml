@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
  check:
-  name: Format check
+  name: Types Check
   runs-on: ubuntu-latest
   steps:
    - name: 🧱 Clone repository
