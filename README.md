@@ -23,7 +23,7 @@
 2. Run `deno task dev` to start the project in development mode or `deno task start` to run the project in production mode.
 3. Visit `http://localhost:8080` in your browser
 
-> **Warning**:
+> [!NOTE]
 > Deno will automatically install all the project packages on the first run
 
 ## 🗜️ API Usage
@@ -32,12 +32,12 @@
 GET https://image-forwarder.deno.dev/?url=${url}
 ```
 
-> **Note**:
-> The url parameter is required and must be a valid url to an image. **Max size of the image is 10MB.**
-
 | Parameter | Type     | Description                                |
 | :-------- | :------- | :----------------------------------------- |
 | `url`     | `string` | URL to the image to forward (**Required**) |
+
+> [!IMPORTANT]
+> The url parameter is required and must be a valid url to an image. **Max size of the image is 10MB.**
 
 ## ⁉️ Issues
 
