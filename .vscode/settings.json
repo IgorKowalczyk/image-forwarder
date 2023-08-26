@@ -1,4 +1,5 @@
 {
  "eslint.enable": false,
- "deno.enable": true
+ "deno.enable": true,
+ "markdown.validate.referenceLinks.enabled": "ignore"
 }
