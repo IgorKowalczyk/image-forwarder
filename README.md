@@ -1,4 +1,5 @@
-![Image forwarder](https://github.com/IgorKowalczyk/image-forwarder/assets/49127376/b5878c51-2594-4c4e-be25-fa5ea025486d)
+![Image forwarder](https://github.com/IgorKowalczyk/image-forwarder/assets/49127376/7d1c53b7-55b3-4071-988b-a62c10a99c88)
+
 
 <div align="center">
  <a aria-label="Powered by" href="https://image-forwarder.deno.dev/">
