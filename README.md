@@ -1,4 +1,4 @@
-![Image forwarder](https://user-images.githubusercontent.com/49127376/229620834-6ef5db38-8793-473c-9e4e-52ed6dfc3d3c.png)
+![Image forwarder](https://github.com/IgorKowalczyk/image-forwarder/assets/49127376/b5878c51-2594-4c4e-be25-fa5ea025486d)
 
 <div align="center">
  <a aria-label="Powered by" href="https://image-forwarder.deno.dev/">
@@ -10,9 +10,6 @@
  <a aria-label="Version" href="https://github.com/igorkowalczyk/image-forwarder/releases">
   <img src="https://img.shields.io/github/v/release/igorkowalczyk/image-forwarder?color=blue&logo=github&label=Version">
  </a>
-<br/>
- <br/>
-  <b>🦕 Deno API that takes the image from a link and transmits the data so that the end user cannot be logged by the origin server</b>
 </div>
 
 ---
