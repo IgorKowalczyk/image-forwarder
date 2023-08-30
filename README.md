@@ -47,7 +47,7 @@ If you come across any errors or have suggestions for improvements, please creat
 
 When submitting a pull request, please follow these steps:
 
-- Clone [this repository](https://github.com/igorkowalczyk/image-forwarder) `https://github.com/IgorKowalczyk/image-forwarder.git`
+- Clone [this repository](https://github.com/igorkowalczyk/image-forwarder) `git clone https://github.com/IgorKowalczyk/image-forwarder.git`
 - Create a branch from `main` and give it a meaningful name (e.g. `my-awesome-new-feature`).
 - Open a [pull request](https://github.com/igorkowalczyk/image-forwarder/pulls) on [GitHub](https://github.com/) and clearly describe the feature or fix you are proposing.
 
