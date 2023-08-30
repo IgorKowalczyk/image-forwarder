@@ -1,6 +1,5 @@
 ![Image forwarder](https://github.com/IgorKowalczyk/image-forwarder/assets/49127376/7d1c53b7-55b3-4071-988b-a62c10a99c88)
 
-
 <div align="center">
  <a aria-label="Powered by" href="https://image-forwarder.deno.dev/">
   <img src="https://img.shields.io/static/v1?label=Powered%20by&message=Deno&color=blue&logo=deno">
