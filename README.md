@@ -29,9 +29,12 @@
 GET https://image-forwarder.deno.dev/?url=${url}
 ```
 
-| Parameter | Type     | Description                                |
-| :-------- | :------- | :----------------------------------------- |
-| `url`     | `string` | URL to the image to forward (**Required**) |
+| Parameter | Type     | Description                                | Required |
+| :-------- | :------- | :----------------------------------------- | :------- |
+| `url`     | `string` | URL to the image to forward                | `true`   |
+| `height`  | `number` | Height of the image if you want to resize  | `false`  |
+| `width`   | `number` | Width of the image if you want to resize   | `false`  |
+| `quality` | `number` | Quality of the image if you want to resize | `false`  |
 
 > [!IMPORTANT]
 > The url parameter is required and must be a valid url to an image. **Max size of the image is 10MB.**
