@@ -47,7 +47,7 @@ async function serveHttp(conn: Deno.Conn) {
    requestEvent.respondWith(
     new Response("Invalid URL. Expected vaild url in query", {
      status: 400,
-    })
+    }),
    );
    continue;
   }
@@ -124,7 +124,7 @@ async function serveHttp(conn: Deno.Conn) {
        "Content-Type": image.mime || "application/octet-stream",
        "Cache-Control": "public, max-age=31536000",
       },
-     })
+     }),
     );
 
     cache.set(url.searchParams.toString(), { type: image.mime || "application/octet-stream", data: resizedImage });
@@ -135,7 +135,7 @@ async function serveHttp(conn: Deno.Conn) {
        "Content-Type": image.mime || "application/octet-stream",
        "Cache-Control": "public, max-age=31536000",
       },
-     })
+     }),
     );
     cache.set(url.searchParams.toString(), { type: image.mime || "application/octet-stream", data: UArray });
    }
