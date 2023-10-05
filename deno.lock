@@ -155,6 +155,7 @@
     "https://deno.land/x/is_url@v1.0.1/isURL.ts": "26c7c013d843bf6c3b22dace7d9afc7c1604cfca611dded60b566c670bcc3019",
     "https://esm.sh/image-type@5.2.0": "b396aabd816039cb72a3fa6b6f1084d25b0174a473da86db71a85e9a35380dc3",
     "https://esm.sh/lru-cache@10.0.0": "e4fa58517b79bbbb3d44cdc994c712f7e8dabcc07013916599e94833996712c1",
+    "https://esm.sh/lru-cache@10.0.1": "50ed13cf2045283f66f11ec9cb7fe627b29a78b8e2797ef97435128f8bc78d21",
     "https://esm.sh/v128/file-type@18.5.0/denonext/file-type.mjs": "3455b63ce3656bab2fa3ea1083be84022461b2e0b9633d35a2daf6a63ad8d608",
     "https://esm.sh/v128/ieee754@1.2.1/denonext/ieee754.mjs": "9ec2806065f50afcd4cf3f3f2f38d93e777a92a5954dda00d219f57d4b24832f",
     "https://esm.sh/v128/image-type@5.2.0/denonext/image-type.mjs": "f7c0a03e6654258b12695270905a171cba3a746bcf8ffc80bc9401540175e2ee",
@@ -165,6 +166,7 @@
     "https://esm.sh/v128/readable-web-to-node-stream@3.0.2/denonext/readable-web-to-node-stream.mjs": "01ee11641752ea1351b5e9b78a293bf999dc4dbd4310c57565cb7b4806cf24e3",
     "https://esm.sh/v128/strtok3@7.0.0/denonext/core.js": "3250eeb57923ca950a60e97d4d95c9d6d6c9b2c37c9de655e064684aef749ab4",
     "https://esm.sh/v128/token-types@5.0.1/denonext/token-types.mjs": "1056b6d3e2a67a3cb299c139afd27a912a32d88938c03c84474baf024507a794",
-    "https://esm.sh/v128/util-deprecate@1.0.2/denonext/util-deprecate.mjs": "f69f67cf655c38428b0934e0f7c865c055834a87cc3866b629d6b2beb21005e9"
+    "https://esm.sh/v128/util-deprecate@1.0.2/denonext/util-deprecate.mjs": "f69f67cf655c38428b0934e0f7c865c055834a87cc3866b629d6b2beb21005e9",
+    "https://esm.sh/v132/lru-cache@10.0.1/denonext/lru-cache.mjs": "0bf693a0bedd7806c7bf2f336f83ec6dd1933b881703cf59bee326573473aa35"
   }
 }

@@ -1,6 +1,6 @@
 import { isURL } from "https://deno.land/x/is_url@v1.0.1/isURL.ts";
 import imageType from "https://esm.sh/image-type@5.2.0";
-import { LRUCache } from "https://esm.sh/lru-cache@10.0.0";
+import { LRUCache } from "https://esm.sh/lru-cache@10.0.1";
 import { ImageMagick, IMagickImage, initialize, MagickGeometry } from "https://deno.land/x/imagemagick_deno@0.0.26/mod.ts";
 
 const server = Deno.listen({ port: 8080 });
@@ -47,7 +47,7 @@ async function serveHttp(conn: Deno.Conn) {
    requestEvent.respondWith(
     new Response("Invalid URL. Expected vaild url in query", {
      status: 400,
-    }),
+    })
    );
    continue;
   }
@@ -124,7 +124,7 @@ async function serveHttp(conn: Deno.Conn) {
        "Content-Type": image.mime || "application/octet-stream",
        "Cache-Control": "public, max-age=31536000",
       },
-     }),
+     })
     );
 
     cache.set(url.searchParams.toString(), { type: image.mime || "application/octet-stream", data: resizedImage });
@@ -135,7 +135,7 @@ async function serveHttp(conn: Deno.Conn) {
        "Content-Type": image.mime || "application/octet-stream",
        "Cache-Control": "public, max-age=31536000",
       },
-     }),
+     })
     );
     cache.set(url.searchParams.toString(), { type: image.mime || "application/octet-stream", data: UArray });
    }
